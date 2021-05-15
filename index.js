@@ -1,6 +1,6 @@
 const clipboardy = require("clipboardy");
 
-const searchPluginCommand = (inputStr) => {
+const getPluginItem = (inputStr) => {
   // Return plugin's result in the form of 'items'
   let items = [];
   try {
@@ -8,7 +8,7 @@ const searchPluginCommand = (inputStr) => {
     if (!isNaN(result)) {
       items.push({
         title: result,
-        subtitle: `${inputStr} = ${result}`,
+        subtitle: inputStr != result ? `${inputStr} = ${result}` : inputStr,
         bundleId: "com.jopemachine.arvis-calculator-plugin-example",
         // Callback event when PluginOutputItem is clicked
         actionCallback: () => {
@@ -27,4 +27,4 @@ const searchPluginCommand = (inputStr) => {
 };
 
 // Export a function that has inputStr as a argument.
-module.exports = searchPluginCommand;
+module.exports = getPluginItem;
