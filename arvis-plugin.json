@@ -1,0 +1,14 @@
+{
+    "$schema": "some_schema_file_path",
+    "defaultIcon": "icon.png",
+    "bundleId": "com.jopemachine.arvis-calculator-plugin",
+    "category": "Productivity",
+    "createdby": "jopemachine",
+    "description": "Example plugin for Arvis",
+    "name": "arvis-calculator-plugin",
+    "readme": "https://github.com/jopemachine/arvis-calculator-plugin",
+    "version": "",
+    "webaddress": "https://github.com/jopemachine/arvis-calculator-plugin",
+    "enabled": true,
+    "main": "index.js"
+}
