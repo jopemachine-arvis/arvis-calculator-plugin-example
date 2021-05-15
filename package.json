@@ -6,7 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "arvis",
+    "arvis-plugin"
+  ],
   "author": "jopemachine",
   "license": "MIT",
   "dependencies": {
