@@ -1,6 +1,6 @@
 {
     "$schema": "some_schema_file_path",
-    "defaultIcon": "icon.png",
+    "defaultIcon": "icon.svg",
     "bundleId": "com.jopemachine.arvis-calculator-plugin-example",
     "category": "Productivity",
     "createdby": "jopemachine",
