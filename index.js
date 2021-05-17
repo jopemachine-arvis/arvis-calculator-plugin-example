@@ -1,5 +1,4 @@
 const path = require("path");
-const clipboardy = require("clipboardy");
 
 const getPluginItem = (inputStr) => {
   // Return plugin's result in the form of 'items'
@@ -13,10 +12,6 @@ const getPluginItem = (inputStr) => {
         bundleId: "com.jopemachine.arvis-calculator-plugin-example",
         icon: {
           path: `${__dirname}${path.sep}icon.svg`,
-        },
-        // Callback event when PluginOutputItem is clicked
-        actionCallback: () => {
-          clipboardy.write(result);
         },
       });
     }

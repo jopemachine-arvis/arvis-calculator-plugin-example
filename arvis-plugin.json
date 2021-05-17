@@ -10,5 +10,12 @@
     "version": "",
     "webaddress": "https://github.com/jopemachine/arvis-calculator-plugin-example",
     "enabled": true,
-    "main": "index.js"
+    "main": "index.js",
+    "action": [
+        {
+            "modifiers": "normal",
+            "type": "script",
+            "script": "node copyAction.js {query}"
+        }
+    ]
 }
