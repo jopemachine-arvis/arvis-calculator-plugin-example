@@ -1,6 +1,6 @@
 const path = require("path");
 
-const getPluginItem = (inputStr) => {
+const getPluginItem = ({ inputStr }) => {
   // Return plugin's result in the form of 'items'
   let items = [];
   try {
@@ -9,7 +9,6 @@ const getPluginItem = (inputStr) => {
       items.push({
         title: result,
         subtitle: inputStr != result ? `${inputStr} = ${result}` : inputStr,
-        bundleId: "com.jopemachine.arvis-calculator-plugin-example",
         icon: {
           path: `${__dirname}${path.sep}icon.svg`,
         },
