@@ -1,17 +1,16 @@
 {
     "$schema": "some_schema_file_path",
     "defaultIcon": "icon.svg",
-    "bundleId": "com.jopemachine.arvis-calculator-plugin-example",
     "category": "Productivity",
-    "createdby": "jopemachine",
+    "creator": "jopemachine",
     "description": "Example plugin for Arvis",
     "name": "arvis-calculator-plugin-example",
     "readme": "https://github.com/jopemachine/arvis-calculator-plugin-example",
     "version": "",
-    "webaddress": "https://github.com/jopemachine/arvis-calculator-plugin-example",
+    "webAddress": "https://github.com/jopemachine/arvis-calculator-plugin-example",
     "enabled": true,
     "main": "index.js",
-    "action": [
+    "actions": [
         {
             "modifiers": "normal",
             "type": "script",
