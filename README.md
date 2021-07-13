@@ -1,6 +1,8 @@
-# arvis-calculator-plugin
+# arvis-calculator-plugin-example
 
-Just plugin example for Arvis
+Just plugin example for Arvis.
+
+If you want to use calculator plugin, you can use [this one](https://github.com/jopemachine/arvis-calculator-plugin)
 
 ![demo](https://user-images.githubusercontent.com/18283033/122417918-d2140880-cfc4-11eb-89d4-b06f2f98708b.PNG)
 
